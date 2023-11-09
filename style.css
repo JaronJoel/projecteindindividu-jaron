@@ -1,0 +1,194 @@
+@import url(https://fonts.google.com/specimen/Oswald);
+@import url(https://fonts.google.com/specimen/Roboto?query=roboto);
+h1{
+    font-family: 'Oswald', sans-serif
+}
+h1{
+    font-weight: 700;
+}
+h1{
+    margin-bottom: -1em;
+}
+h2{
+    font-family: 'Lato', sans-serif
+}
+h2{
+    font-weight: 700;
+}
+p{
+    font-family: 'Roboto';
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #FACFB0;
+}
+header {
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+header img{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 0.5em;
+}
+main p{
+    margin: 1em;
+}
+footer{
+    padding: 2%;
+    background-color: black;
+    margin-bottom: -1em;
+    margin-left: -1em;
+    margin-right: -1em;
+    margin-top: 1em;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+    color: red;
+}
+footer ul{
+    list-style-type: none;
+    padding: 0em;
+}
+footer li{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+footer a{
+    text-decoration: none;
+    color: red;
+}
+.index h2{
+    text-decoration: none;
+    color: red;
+    background-color: black;
+    width: 80%;
+    margin: auto;
+}
+.index a{
+    text-decoration: none;
+}
+.hoehetwerkt header img{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 0.5em;
+}
+.mijnervaring header img{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 0.5em;
+}
+.winkels header img{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 0.5em;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: auto;
+}
+main h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.7em;
+}
+.index main img{
+    width: 60%;
+    border-radius: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.index main h2{
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.05em;
+}
+.index main p{
+    margin-bottom: 2em;
+    text-align: center;
+}
+.index section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.winkels img{
+    width: 100%;
+    margin-top: -0.5em;
+}
+.winkels section a img{
+    width: 77%;
+    border-radius: 100%;
+}
+.winkels section a {
+    text-align: center;
+}
+.winkels p{
+    text-align: center;
+}
+.winkels h2{
+    text-align: center;
+    margin-bottom: -0.5em;
+}
+.winkels section:first-of-type{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.mijnervaring p{
+    text-align: center;
+}
+.mijnervaring h2{
+    text-align: center;
+    margin-bottom: -0.5em;
+}
+.mijnervaring img{
+    width: 100%;
+    margin-top: -0.5em;
+}
+.hoehetwerkt h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: -0.5em;
+}
+.hoehetwerkt p{
+    text-align: center;
+}
+.hoehetwerkt section:first-of-type img{
+    width: 25%;
+    transform: rotate(45deg);
+}
+.hoehetwerkt ul{
+    list-style-type: none;
+    padding: 0em;
+}
+.hoehetwerkt section:first-of-type{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+}
+.hoehetwerkt section:nth-of-type(2) img{
+    width: 100%;
+}
+.hoehetwerkt section:nth-of-type(3) img{
+    width: 100%;
+}
